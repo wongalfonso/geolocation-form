@@ -1,0 +1,15 @@
+{
+  "name": "geolocation-form",
+  "version": "1.0.0",
+  "description": "form that gets geolocation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alfonso Wong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.3"
+  }
+}
