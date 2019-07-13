@@ -4,12 +4,12 @@
   "description": "form that gets geolocation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js -e js,hbs"
   },
   "author": "Alfonso Wong",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "hbs": "^4.0.3"
+    "express": "^4.16.4"
   }
 }
